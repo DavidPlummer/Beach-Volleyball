@@ -1,7 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-}
 *{
     box-sizing: border-Box;
 }
@@ -27,21 +23,67 @@ body {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-.header {
+header {
     border: 1px solid rgba(255, 255, 255, 0);
     padding: 15px;
+}
+
+.header {
+    color: #ffffff;
+    padding: 10%;
+}
+
+.header img{
+    max-width: 100%;
+    height: Auto;
+}
+.header h1 {
+    text-align: center;
+    font-size: 200px;
+    color: #faf50e;
+    font-family: Tangerine;
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    background-position: center;
+    background-size: cover;
+    background-image: url("Imiage/beachNet.jpg");
+    min-height: 100%;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "arial", sans-serif;
+}
+
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+body
+h2{
+    padding: 7px;;
+    margin-top: 7%;
 }
 
 .logo {
     width: 25%;
     float: left;
-    padding: 0px;
+    padding: 0;
     border: 5px solid rgba(255, 255, 255, 0);
     background-color: #faf50e;
 }
 .nav {
     width: 75%;
-    float: left;
+    float: right;
     padding: 15px;
     border: 1px solid rgba(255, 0, 0, 0);
 }
@@ -82,41 +124,6 @@ li a:hover:not(.active) {
     background-color: #faf50e;
 }
 
-.header {
-    color: #ffffff;
-    padding: 10%;
-}
-
-.header img{
-    max-width: 100%;
-    height: Auto;
-}
-.header h1 {
-    text-align: center;
-    font-size: 200px;
-    color: #faf50e;
-    font-family: Tangerine;
-    padding: 0;
-    margin: 0;
-
-}
-
-body,h1,h2,h3,h4,h5,h6 {
-    font-family: "arial", sans-serif;
-}
-
-body, html {
-    height: 100%;
-    line-height: 1.8;
-}
-
-header {
-    background-position: center;
-    background-size: cover;
-    background-image: url("img/beachNet.jpg");
-    min-height: 100%;
-
-}
 .signUp {
     background-color: rgba(250, 245, 14, 0.8);
     color: black;
@@ -132,11 +139,5 @@ a:hover, a:active {
     a:link,
 }
 
-body
-
-h2{
-    padding: 7px;;
-    margin-top: 7%;
-}
 
 
