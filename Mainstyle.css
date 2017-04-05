@@ -148,6 +148,7 @@ body {
     padding-top: 16.5%;
     padding-right: 33%;
     padding-left: 33%;
+    text-align: justify;
 
 
 
@@ -167,3 +168,16 @@ body {
     padding: 2%;
 
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color:rgba(52, 202, 250, 0.8)}
