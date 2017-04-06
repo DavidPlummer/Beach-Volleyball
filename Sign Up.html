@@ -11,13 +11,12 @@
 
 <body>
 
-<header class= "page">
+<header class="page">
 
     <h2> Sign Up</h2>
 
 </header>
 <nav>
-
 
 
     <ul class="menu">
@@ -30,56 +29,109 @@
     </ul>
     <div class="logo">
 
-        <a href= "Index.html"><img src="Image/vector_volleyball.jpg"></a>
+        <a href="Index.html"><img src="Image/vector_volleyball.jpg"></a>
     </div>
 
 
 </nav>
 
+<div>
+    <form>
+        <h4> Sign Up Form</h4>
 
-<div Class= "text">
+        <label for="Team name">Team Name:</label>
+        <input type="text" id="Team name" name="Team Name" placeholder="Your Team Name..."> <br>
 
-We would like an online sign-up form so people can register their team on the site.
-Data we need would be:
-•	Contact person name
-•	Contact phone number
-•	Contact email address
-•	Competition day (choose Monday – Saturday)
-•	Competition time (choose afternoon or evening)
-•	Tick-box for whether they have read and agree with our playing guidelines (below)
+        <label for="Contact person Name">Contact person Name:</label>
+        <input type="text" id="Contact person Name" name="Contact person Name" placeholder="Contact person Name...">
+        <br>
 
-</div>
+        <label for="Phone Number">Phone Number:</label>
+        <input type="text" id="Phone Number" name="Phone Number" placeholder="Phone Number..."> <br>
 
-<form>
-    Contact person Name:<br>
-    <input type="text" name = "Name"> <br>
-    Phone Number:<br>
-    <input type="text" name = "Phone Number"> <br>
-    Email Address:<br>
-    <input type="text" name = "Email"> <br>
-    <br>
-    <input type="checkbox" name="day" value=" Monday">Monday<br>
-    <input type="radio" name="day" value=" Tuesday">Tuesday<br>
-    <input type="radio" name="day" value=" Wednesday">Wednesday<br>
-    <input type="radio" name="day" value=" Thurday">Thurday<br>
-    <input type="radio" name="day" value=" Friday">Thurday<br>
-    <input type="radio" name="day" value=" Satday">Satday<br>
-    <input type="radio" name="day" value=" Sunday">Sunday<br>
-    Participants in Slammers Beach Volleyball play at their own risk. Anyone playing is responsible for their own safety and should only play if they are capable. Check with your doctor before you begin.
-    Game fees must be paid prior to the start of the game. Games may be cancelled by players up to 4 hours before hand to get a refund. Without 4 hours' notice, participants will forfeit the game and be charged 50% of the game fee.
+        <label for="Email Address">Email Address:</label>
+        <input type="text" id="Email Address" name="Email Address" placeholder="Email Address..."> <br>
+        <p> Competition Day</p>
 
-    Some images require attribution to permit reuse. See https://creativecommons.org/licenses/by/2.0/
-    •	https://www.flickr.com/photos/37873897@N06/5208457834
 
-    •	By David Bunting from England - Beach Volleyball Classic 2007, CC BY 2.0, <a
-        href="https://commons.wikimedia.org/w/index.php?curid=3213036" target="_blank" class=" hyperlink">https://commons.wikimedia.org/w/index.php?curid=3213036</a><br>
-    I have read the above guidelines and agree to the terms and conditions set by Slammers Volley Ball<br>
-    <input type="radio" name="Guidelines" value="yes">Yes<br>
-    <input type="radio" name="Guidelines" value="No">No<br>
+        <label for="Monday">Monday</label>
+        <select id="Monday" name="Monday">
+            <option value="None">N/A</option>
+            <option value="Afternoon">Afternoon</option>
+            <option value="Evening">Evening</option>
+            <option value="Both">Both</option>
+        </select>
+
+        <label for="Tuesday">Tuesday</label>
+        <select id="Tuesday" name="Tuesday">
+            <option value="None">N/A</option>
+            <option value="Afternoon">Afternoon</option>
+            <option value="Evening">Evening</option>
+            <option value="Both">Both</option>
+        </select>
+        <label for="Wednesday">Wednesday</label>
+        <select id="Wednesday" name="Wednesday">
+            <option value="None">N/A</option>
+            <option value="Afternoon">Afternoon</option>
+            <option value="Evening">Evening</option>
+            <option value="Both">Both</option>
+        </select>
+        <label for="Thursday">Thursday</label>
+        <select id="Thursday" name="Thursday">
+            <option value="None">N/A</option>
+            <option value="Afternoon">Afternoon</option>
+            <option value="Evening">Evening</option>
+            <option value="Both">Both</option>
+        </select>
+        <label for="Friday">Friday</label>
+        <select id="Friday" name="Friday">
+            <option value="None">N/A</option>
+            <option value="Afternoon">Afternoon</option>
+            <option value="Evening">Evening</option>
+            <option value="Both">Both</option>
+        </select>
+        <label for="Saturday">Saturday</label>
+        <select id="Saturday" name="Saturday">
+            <option value="None">N/A</option>
+            <option value="Afternoon">Afternoon</option>
+            <option value="Evening">Evening</option>
+            <option value="Both">Both</option>
+        </select>
+        <label for="Sunday">Sunday</label>
+        <select id="Sunday" name="Sunday">
+            <option value="None">N/A</option>
+            <option value="Afternoon">Afternoon</option>
+            <option value="Evening">Evening</option>
+            <option value="Both">Both</option>
+        </select>
+
+        <textarea >
+            Play Guidlines
+            Participants in Slammers Beach Volleyball play at their own risk. Anyone playing is responsible for their
+            own safety and should only play if they are capable. Check with your doctor before you begin.
+            Game fees must be paid prior to the start of the game. Games may be cancelled by players up to 4 hours
+            before hand to get a refund. Without 4 hours' notice, participants will forfeit the game and be charged 50%
+            of the game fee.
+
+            Some images require attribution to permit reuse. See https://creativecommons.org/licenses/by/2.0/
+            • https://www.flickr.com/photos/37873897@N06/5208457834
+
+            • By David Bunting from England - Beach Volleyball Classic 2007, CC BY 2.0,
+                    https://commons.wikimedia.org/w/index.php?curid=3213036
+
+        </textarea>
+
+        I have read the above guidelines and agree to the terms and conditions set by Slammers Volley Ball<br>
+        <input type="checkbox" name="Yes" value="yes">Yes<br>
+        <input type="checkbox" name="No" value="No">No<br>
+        <input type="Submit" value="Submit">
+
+
     </form>
 
 
-</form>
+    </form>
+</div>
 
 <footer></footer>
 </body>
