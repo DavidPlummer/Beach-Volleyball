@@ -2,7 +2,7 @@
 .logo {
     float: left;
     padding: 0;
-    background-color: #e8d21b;
+    background-color: #ff42d7;
     margin: 0;
     position: fixed;
     top: 0;
@@ -56,7 +56,7 @@ li a {
 
 li a:hover:not(.active) {
     background-color: rgba(52, 202, 250, 0.8);
-    box-shadow: 2px 2px 3px rgba(0, 2, 2, 0.31);
+    box-shadow: 2px 2px 3px #ff42d7;
     text-shadow: none;
 }
 
@@ -93,9 +93,11 @@ h2 {
 
 h3 {
     text-align: center;
-    font-size: 200%;
+    font-size: 250%;
     color: #a38f16;
     font-family: "Tangerine", sans-serif;
+    text-decoration: underline;
+    padding: 0;
 
 }
 
@@ -159,7 +161,7 @@ h6 {
     font-size: 50px;
     color: white;
     margin-left: 33.3%;
-    margin-top: 3%;
+    margin-top: 8%;
     margin-bottom: 1%;
     background-color: rgba(58, 255, 250, 0.76);
     border: 2px solid rgba(76, 175, 80, 0);
@@ -190,7 +192,8 @@ h6 {
 }
 
 .button3:hover {
-    background-color: #ff42d7;    color: white;
+    background-color: #ff42d7;
+    color: white;
     text-decoration: line-through;
     box-shadow: 0px 0px 1px 2px #15fdff;
 }
@@ -209,8 +212,8 @@ body {
 }
 
 .page {
-    background-image: url("Image/beachNet4.jpg");
-    box-shadow: 3px 3px 5px #888888;
+    background-image: url("Image/beachNet.jpg");
+    box-shadow: 3px 3px 5px #3afffa;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -232,7 +235,7 @@ article {
     margin-bottom: 10%;
     border: solid 1px;
     background-color: white;
-    box-shadow: 3px 3px 5px  #15fdff;
+    box-shadow: 3px 3px 5px #15fdff;
 
 }
 
@@ -254,7 +257,7 @@ section {
     width: 50%;
     float: left;
     margin-top: 10%;
-    margin-left: 16.7%;
+    margin-left: 15%;
     margin-right: 2%;
     margin-bottom: 10%;
     border: solid 1px;
@@ -264,8 +267,8 @@ section {
 }
 
 .text {
-    padding-top: 3%;
-    margin-top: 10%;
+    padding-top: 1%;
+    margin-top: 0;
     padding-right: 4%;
     padding-left: 4%;
     padding-bottom: .912%;
@@ -287,18 +290,43 @@ section {
 
 }
 
+div.text3 {
+    padding-top: 0;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-bottom: .912%;
+    text-align: center;
+    font-family: Open Sans;
+    width: 40%;
+    float: left;
+    margin-top: 9.8%;
+    margin-left: 26%;
+    margin-right: 2%;
+    margin-bottom: 14%;
+    border: solid 1px;
+    background-color: white;
+    box-shadow: 3px 3px 5px #15fdff;
+
+}
+
 aside {
-    box-shadow: 3px 3px 5px  #15fdff;
+    box-shadow: 3px 3px 5px #15fdff;
     background-color: white;
     margin-left: 2%;
     border: solid 1px;
+    width: 10%;
 
 }
 
 .leftpanel {
     float: left;
     margin-top: 2%;
-    padding: 2%;
+    margin-left: 2%;
+    padding: 0;
+    width: 18.5%;
+    box-shadow: 3px 3px 5px #15fdff;
+    margin-bottom: 0;
+    padding-bottom: 0%;
 
 }
 
@@ -310,21 +338,21 @@ aside {
     width: 8%;
     background: none;
     border: none;
-    box-shadow: 0 0 0 ;
+    box-shadow: 0 0 0;
 
 }
 
 .rightpanel {
-    float: right;
+    float: left;
     margin-top: 4%;
     padding: 0;
-    margin-right: 2%;
+    margin-right: 0;
     box-shadow: 0 0 0 #888888;
     background-color: rgba(255, 240, 74, 0);
-    margin-left: 0;
+    margin-left: 4%;
     border: solid 0;
     text-align: justify;
-    width: 7%;
+    width: 8%;
 
 }
 
@@ -405,6 +433,7 @@ textarea {
     background-color: #f8f8f8;
     font-size: 16px;
     resize: none;
+    text-align: justify;
 }
 
 input [type=text], select {
@@ -469,7 +498,7 @@ div.pictext {
     text-shaddow: none;
     text-decoration: none;
     text-align: center;
-    background: rgb(252, 74, 84);
+    background: #ff42d7;
     border: solid 1px;
     color: black;
 }
@@ -496,7 +525,7 @@ div.picframe {
     margin-left: 25%;
     background-position: center;
     padding: 0;
-    box-shadow: 0 4px 8px 0#ff42d7, 0 6px 20px 0#ff42d7;
+    box-shadow: 0 4px 8px 0 #ff42d7, 0 6px 20px 0 #ff42d7;
     background-color: white;
     border: solid 0;
     color: white;
@@ -508,7 +537,7 @@ footer {
     background-color: #202020;
     float: left;
     color: white;
-    width: 100%;
+    width: 98%;
     padding: 1%;
     text-align: center;
 
