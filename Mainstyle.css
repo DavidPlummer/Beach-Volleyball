@@ -96,7 +96,36 @@ h3 {
     font-size: 200%;
     color: #a38f16;
     font-family: "Tangerine", sans-serif;
+
 }
+
+h4 {
+    font-size: 200%;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+}
+h5 {
+    font-size: 100%;
+    color: #8b840a;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+    font-size: 150%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    color: #e8d21b;
+    font-family: "open sans";
+    text-shadow: 1px 1px 2px black, 0 0 25px #15fdff, 0 0 5px darkblue;
+   text-decoration: overline;
+}
+
 
 .button {
     width: 20%;
@@ -120,7 +149,50 @@ h3 {
     text-decoration: line-through;
     box-shadow: 0px 0px 1px 2px #15fdff;
 }
+.button2 {
+    width: 33.3%;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    font-family: Tangerine;
+    font-size: 50px;
+    color: white;
+    margin-left: 33.3%;
+    margin-top: 1.5%;
+    margin-bottom:0.5%;
+    background-color: rgb(255, 5, 12);
+    border: 2px solid rgba(76, 175, 80, 0);
+    box-shadow: 3px 3px 5px rgb(255, 5, 12);
+}
 
+.button2:hover {
+    background-color: rgba(232, 210, 27, 0.63);
+    color: white;
+    text-decoration: line-through;
+    box-shadow: 0px 0px 1px 2px #15fdff;
+}
+.button3 {
+    width: 33.3%;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    font-family: Tangerine;
+    font-size: 50px;
+    color: white;
+    margin-left: 33.3%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: rgb(255, 5, 12);
+    border: 2px solid rgba(76, 175, 80, 0);
+    box-shadow: 3px 3px 5px rgb(255, 5, 12);
+}
+
+.button3:hover {
+    background-color: rgba(232, 210, 27, 0.63);
+    color: white;
+    text-decoration: line-through;
+    box-shadow: 0px 0px 1px 2px #15fdff;
+}
 span, a {
     color: #a38f16;
     text-decoration: none;
@@ -130,14 +202,10 @@ span, a {
 body {
     margin: 0;
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.04);
+    background-color: #636363;;
 
 }
 
-footer {
-    background-color: #636363;
-
-}
 
 .page {
     background-image: url("Image/beachNet4.jpg");
@@ -147,15 +215,17 @@ footer {
     background-size: cover;
     position: fixed;
     width: 100%;
+    height: 10%;
     padding: 0;
     margin-bottom: 0;
+    overflow: hidden;
 
 }
 
 article {
     width: 63%;
     float: left;
-    margin-top: 14%;
+    margin-top: 2%;
     margin-left: 3%;
     margin-right: 2%;
     margin-bottom: 10%;
@@ -166,9 +236,21 @@ article {
 }
 
 section {
+     width: 66.6%;
+     float: left;
+     margin-top: 6%;
+     margin-left: 16%;
+     margin-right: 2%;
+     margin-bottom: 4%;
+     background-color: white;
+     box-shadow: 3px 3px 5px #3afffa;
+
+ }
+
+.sectiontext {
     width: 66.6%;
     float: left;
-    margin-top: 1%;
+    margin-top: 10%;
     margin-left: 16.7%;
     margin-right: 2%;
     margin-bottom: 10%;
@@ -195,28 +277,12 @@ section {
     padding-top: 3%;
     margin-top: 0;
     padding-right: 4%;
-    padding-left: 4%;
+    padding-left: 10%;
     padding-bottom: 10%;
     text-align: justify;
     font-family: Open Sans;
-    background-color: white;
+    background-color: #ffffff;
 
-}
-
-h4 {
-    font-size: 150%;
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-}
-h5 {
-    font-size: 100%;
-    color: white;
-    text-shadow: 1px 1px 2px #000000, 0 0 25px #f7ff0c, 0 0 5px #8b840a;
-    margin-left: 0;
-    margin-bottom: 0;
-    margin-top: 12%;
-    padding: 0;
-    text-align: center;
 }
 
 aside {
@@ -229,16 +295,42 @@ aside {
 
 .leftpanel {
     float: left;
-    margin-top: 14%;
+    margin-top: 2%;
     padding: 2%;
+
+}
+.rightpanel {
+    float: right;
+    margin-top: 2%;
+    padding: 2%;
+    margin-right: 2%;
+    box-shadow: 0 0 0 #888888;
+    background-color: rgba(136, 136, 136, 0);
+    margin-left: 1%;
+    border: solid 0;
+    text-align: justify;
+    width: 8%;
+
+}
+
+.bottompanel {
+    float: left;
+    margin-top: 0;
+    padding: 0;
+    box-shadow: 0 0 0 #888888;
+    background-color: rgba(136, 136, 136, 0);
+    margin-left: 1%;
+    border: solid 0;
+    text-align: justify;
+    width: 100%;
 
 }
 
 table {
     width: 75%;
     margin-left: 12.5%;
-    margin-top: 11%;
-    margin-bottom: 10%;
+    margin-top: 0;
+    margin-bottom: 3%;
     box-shadow: 3px 3px 5px #888888;
 
 }
@@ -272,13 +364,14 @@ div .form {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    margin-top: 25%;
 }
 
 form {
     border: double black 1px;
     margin-left: 33.3%;
-    margin-top: 11%;
-    margin-bottom: 20%;
+    margin-top: 14%;
+    margin-bottom: 25%;
     margin-right: 33.3%;
     padding: 2%;
     float: left;
@@ -327,6 +420,7 @@ background-color: #45a049;
 
 
 
+
 .hyperlink{
     text-shadow: none;
     text-decoration: underline;
@@ -335,12 +429,16 @@ background-color: #45a049;
 
 div.picture {
     float: left;
-    margin-top:16%;
+    margin-top:1%;
+    margin-left: 10%;
+    margin-bottom: 2%;
     width: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(108, 242, 252, 0.8), 0 6px 20px 0 rgba(51, 243, 255, 0.74);
     text-align: center;
-    text-shaddow: none;
+    text-shadow: 0px 0px 0px black, 0 0 25px #15fdff, 0 0 5px darkblue;
     text-decoration: none;
+    color: black;
+
 
 }
 
@@ -349,6 +447,9 @@ div.pictext {
     text-shaddow: none;
     text-decoration: none;
     text-align: center;
+    background: rgb(252, 74, 84);
+    border: solid 1px;
+    color: black;
 }
 
 
@@ -357,15 +458,22 @@ div .signup{
     width: 100%;
 
 }
+div.picframe{
+    width: 66.6%;
+    margin-left: 14%;
+    margin-bottom: 1%;
+
+}
+
 .signup {
     background-image: url("Image/sand.jpg");
-    background-repeat: round;
-    width: 100%;
+    background-repeat: no-repeat;
+    width: 66.6%;
+    margin-left:16%;
     background-position: center;
     padding: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: white;
-    margin:0;
     border: solid 1px;
     color:white;
     font-family: Tangerine;
@@ -373,25 +481,12 @@ div .signup{
 }
 
 
-.button2 {
-    width: 33.3%;
-    padding: 0;
+footer {
+    background-color: #202020;
+    float:left;
+    color: white;
+    width: 100%;
+    padding: 1%;
     text-align: center;
-    text-decoration: none;
-    font-family: Tangerine;
-    font-size: 50px;
-    color: white;
-    margin-left: 33.3%;
-    margin-top: 0;
-    margin-bottom: .5%;
-    background-color: rgb(255, 5, 12);
-    border: 2px solid rgba(76, 175, 80, 0);
-    box-shadow: 3px 3px 5px rgb(255, 5, 12);
-}
 
-.button2:hover {
-    background-color: rgba(232, 210, 27, 0.63);
-    color: white;
-    text-decoration: line-through;
-    box-shadow: 0px 0px 1px 2px #15fdff;
 }
